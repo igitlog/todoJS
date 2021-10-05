@@ -13,34 +13,33 @@
 
 <body>
   <div class="wrapper">
-    <header class="header-container">
-      <a class="header__logo"></a>
-      <button type="button" class="header__burger-icon">
-        <span class="header__burger-icon"></span>
-        <span class="header__burger-icon"></span>
-        <span class="header__burger-icon"></span>
-      </button>
-    </header>
+    <div class="header-wrapper">
+      <header class="header-container">
+        <a class="header__logo">Simple Todo</a>
+        <button type="button" class="header__burger-icon">
+          <span class="header__burger-icon"></span>
+          <span class="header__burger-icon"></span>
+          <span class="header__burger-icon"></span>
+        </button>
+      </header>
+    </div>
     <div class="contacts">
       <nav class="header__menu menu">
         <ul class="menu-list">
-          <li class="menu-item"><a href="" class="menu-link"></a></li>
-          <li class="menu-item"><a href="" class="menu-link"></a></li>
+          <li class="menu-item"><a href="https://t.me/const_DEV" class="menu-link">Telegram</a></li>
+          <li class="menu-item"><a href="https://github.com/igitlog" class="menu-link">Github</a></li>
         </ul>
       </nav>
     </div>
     <div class="body">
       <div class="todo-header">
-        <h2>My To Do List</h2>
         <input type="text" id="input" placeholder="Title...">
-        <span class="add-btn">Add</span>
+        <span class="add-btn">+</span>
       </div>
-      <ul class="todo-list">
-        <li class="todo-item">1</li>
-        <li class="todo-item checked">2</li>
-        <li class="todo-item">3</li>
-        <li class="todo-item">4</li>
-        <li class="todo-item">5</li>
+      <ul class="todo-list" id="todo-list">
+        <li class="todo-item">Pay for the apartment</li>
+        <li class="todo-item checked">Buy food for a week</li>
+        <li class="todo-item">Buy a gym membership</li>
       </ul>
     </div>
   </div>
